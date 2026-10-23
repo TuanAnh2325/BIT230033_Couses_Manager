@@ -11,7 +11,7 @@ object RetrofitClient {
     // Sinh viên có thể thay thế bằng đường dẫn MockAPI cá nhân của mình
     // Ví dụ: "https://65123456789abcdef.mockapi.io/api/v1/"
     @Volatile
-    var customBaseUrl: String = "https://6602521c9b451f6f27715b74.mockapi.io/api/v1/"
+    var customBaseUrl: String = "https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/"
 
     private var retrofit: Retrofit? = null
 

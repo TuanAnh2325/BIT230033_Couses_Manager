@@ -19,13 +19,14 @@
 - **Mã nguồn:** 100% Kotlin hiện đại, kiến trúc MVVM + Repository Pattern, tích hợp Room Database và Retrofit 2 REST API.
 
 ### 2. Đường dẫn Project / API MockAPI
-- **MockAPI Base URL:** `https://6602521c9b451f6f27715b74.mockapi.io/api/v1/`
+- **MockAPI Project URL:** [https://mockapi.io/projects/6adb890e3b7e90b820900b66](https://mockapi.io/projects/6adb890e3b7e90b820900b66)
+- **MockAPI Base URL:** `https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/`
 - **Resource Categories Endpoint:**
-  - `GET / POST` : `https://6602521c9b451f6f27715b74.mockapi.io/api/v1/categories`
-  - `PUT / DELETE`: `https://6602521c9b451f6f27715b74.mockapi.io/api/v1/categories/:id`
+  - `GET / POST` : `https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/categories`
+  - `PUT / DELETE`: `https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/categories/:id`
 - **Resource Courses Endpoint:**
-  - `GET / POST` : `https://6602521c9b451f6f27715b74.mockapi.io/api/v1/courses`
-  - `GET / PUT / DELETE`: `https://6602521c9b451f6f27715b74.mockapi.io/api/v1/courses/:id`
+  - `GET / POST` : `https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/courses`
+  - `GET / PUT / DELETE`: `https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/courses/:id`
 - **Lưu ý đã thực hiện:** URL ảnh bìa (`thumbnail`) và trailer (`trailerUrl`) được lưu trữ dạng chuỗi `String` trên MockAPI, không bắt buộc upload file ảnh/video lên máy chủ.
 
 ### 3. Video thuyết trình kĩ về các chức năng
@@ -162,7 +163,7 @@ BIT230033_Couses_Manager/
 Mặc định ứng dụng đã được cấu hình với MockAPI endpoint hoặc có thể thay thế bằng endpoint cá nhân của bạn trong file:
 `app/src/main/java/com/example/coursesmanager/data/remote/RetrofitClient.kt`:
 ```kotlin
-var customBaseUrl: String = "https://6602521c9b451f6f27715b74.mockapi.io/api/v1/"
+var customBaseUrl: String = "https://6adb890e3b7e90b820900b65.mockapi.io/api/v1/"
 ```
 
 ### Cấu trúc JSON Object trên MockAPI:
