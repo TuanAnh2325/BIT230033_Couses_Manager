@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Course Manager</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_courses">Danh sách khóa học</string>
+    <string name="title_course_detail">Chi tiết khóa học</string>
+    <string name="title_add_course">Thêm khóa học mới</string>
+    <string name="title_edit_course">Cập nhật khóa học</string>
+    <string name="title_category_management">Quản lý danh mục</string>
+    <string name="title_video_trailer">Video Trailer Khóa học</string>
+
+    <!-- Filter & Search -->
+    <string name="search_hint">Tìm kiếm khóa học theo tên...</string>
+    <string name="filter_all_categories">Tất cả danh mục</string>
+    <string name="category_label">Danh mục: %s</string>
+    <string name="instructor_label">Giảng viên: %s</string>
+    <string name="duration_label">%d giờ học</string>
+    <string name="created_at_label">Ngày tạo: %s</string>
+
+    <!-- Form Labels -->
+    <string name="label_title">Tên khóa học (*)</string>
+    <string name="hint_title">Nhập tên khóa học...</string>
+    <string name="label_category">Danh mục (*)</string>
+    <string name="label_instructor">Tên giảng viên (*)</string>
+    <string name="hint_instructor">Nhập tên giảng viên...</string>
+    <string name="label_price">Học phí (VND) (*)</string>
+    <string name="hint_price">Ví dụ: 500000</string>
+    <string name="label_duration">Thời lượng (giờ) (*)</string>
+    <string name="hint_duration">Ví dụ: 30</string>
+    <string name="label_thumbnail">URL ảnh bìa (*)</string>
+    <string name="hint_thumbnail">https://.../cover.jpg</string>
+    <string name="label_trailer">URL Video Trailer (*)</string>
+    <string name="hint_trailer">https://.../trailer.mp4</string>
+    <string name="label_description">Mô tả khóa học (*)</string>
+    <string name="hint_description">Nhập mô tả nội dung khóa học...</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Lưu khóa học</string>
+    <string name="btn_update">Lưu thay đổi</string>
+    <string name="btn_watch_trailer">Xem Trailer</string>
+    <string name="btn_edit">Chỉnh sửa</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_preview_image">Xem trước ảnh</string>
+    <string name="btn_add_category">Thêm danh mục</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_confirm_delete">Xác nhận xóa</string>
+    <string name="btn_retry">Thử lại</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_delete_course_title">Xác nhận xóa khóa học</string>
+    <string name="dialog_delete_course_msg">Bạn có chắc chắn muốn xóa khóa học "%s" không? Thao tác này không thể hoàn tác.</string>
+    <string name="dialog_delete_category_title">Xác nhận xóa danh mục</string>
+    <string name="dialog_delete_category_msg">Bạn có chắc chắn muốn xóa danh mục "%s" không?</string>
+    <string name="dialog_add_category_title">Thêm danh mục mới</string>
+    <string name="dialog_edit_category_title">Cập nhật danh mục</string>
+
+    <!-- Toast & Feedback Messages -->
+    <string name="msg_load_courses_success">Đã tải danh sách khóa học thành công</string>
+    <string name="msg_course_added_success">Thêm khóa học thành công!</string>
+    <string name="msg_course_updated_success">Cập nhật khóa học thành công!</string>
+    <string name="msg_course_deleted_success">Đã xóa khóa học thành công!</string>
+    <string name="msg_category_added_success">Thêm danh mục thành công!</string>
+    <string name="msg_category_updated_success">Cập nhật danh mục thành công!</string>
+    <string name="msg_category_deleted_success">Đã xóa danh mục thành công!</string>
+
+    <!-- Error & Validation Messages -->
+    <string name="err_title_empty">Vui lòng nhập tên khóa học (tối thiểu 3 ký tự)!</string>
+    <string name="err_category_not_selected">Vui lòng chọn danh mục cho khóa học!</string>
+    <string name="err_instructor_empty">Vui lòng nhập tên giảng viên (tối thiểu 2 ký tự)!</string>
+    <string name="err_price_invalid">Học phí không hợp lệ! Học phí phải là số >= 0 VND.</string>
+    <string name="err_duration_invalid">Thời lượng không hợp lệ! Thời lượng học phải từ 1 giờ trở lên.</string>
+    <string name="err_thumbnail_invalid">URL ảnh bìa không hợp lệ! Vui lòng nhập URL bắt đầu bằng http:// hoặc https://</string>
+    <string name="err_trailer_invalid">URL trailer không hợp lệ! Vui lòng nhập link MP4 hoặc web video hợp lệ.</string>
+    <string name="err_desc_empty">Vui lòng nhập mô tả khóa học (tối thiểu 10 ký tự)!</string>
+    <string name="err_cat_name_empty">Tên danh mục không được để trống (tối thiểu 2 ký tự)!</string>
+    <string name="err_cat_desc_empty">Mô tả danh mục không được để trống!</string>
+    <string name="err_cannot_delete_cat_has_courses">Không thể xóa! Danh mục "%1$s" đang có %2$d khóa học liên kết. Hãy chuyển hoặc xóa các khóa học trước!</string>
+    <string name="err_network">Lỗi kết nối mạng! Đang sử dụng dữ liệu ngoại tuyến.</string>
+    <string name="err_server">Lỗi phản hồi từ máy chủ. Vui lòng thử lại sau!</string>
+    <string name="err_image_preview_failed">Không thể tải ảnh xem trước từ URL này. Vui lòng kiểm tra lại!</string>
+    <string name="err_video_play_failed">Không thể phát video từ đường dẫn này. Vui lòng kiểm tra định dạng video!</string>
+
+    <!-- Empty States -->
+    <string name="empty_courses_title">Chưa có khóa học nào</string>
+    <string name="empty_courses_subtitle">Nhấn nút (+) bên dưới để tạo khóa học mới đầu tiên!</string>
+    <string name="empty_categories_title">Chưa có danh mục nào</string>
+    <string name="empty_categories_subtitle">Nhấn Thêm danh mục để tạo nhóm khóa học.</string>
+
+    <!-- Category item info -->
+    <string name="category_course_count">%d khóa học</string>
+</resources>
